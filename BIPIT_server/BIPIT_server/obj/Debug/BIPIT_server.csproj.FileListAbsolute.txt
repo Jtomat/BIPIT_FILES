@@ -9,3 +9,14 @@ D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.exe.manifest
 D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.application
 D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.exe.manifest
 D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.application
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.exe.config
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.exe.manifest
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.application
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.exe
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.pdb
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.csprojAssemblyReference.cache
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.csproj.CoreCompileInputs.cache
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.exe.manifest
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.application
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.exe
+D:\Repos\BIPIT_FILES\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.pdb

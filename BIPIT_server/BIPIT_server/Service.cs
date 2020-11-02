@@ -24,13 +24,13 @@ namespace BIPIT_server
                 var res = Exect($"insert into Orders (id_user,id_book,from_date,to_date,to_date_fact) values ('{id_u}','{id_b}',"+
                     $"'{DateTime.Parse(dateFrom).ToString("MM-dd-yyyy HH:mm:ss")}','{DateTime.Parse(dateTo).ToString("MM-dd-yyyy HH:mm:ss")}',"+
                     $"'{DateTime.Parse(dateFact).ToString("MM-dd-yyyy HH:mm:ss")}')");
-
-                Program.PrintMessage($"Success operation: Add_Rec",GetPorts());
+                var count = Exect("select * from Orders");
+                Program.PrintMessage($"Success operation: Add_Rec Count:{count.Count}",GetPorts());
             }
             catch (Exception ex)
             {
 
-                Program.PrintMessage($" Error on operation: Add_Rec",GetPorts());
+                Program.PrintMessage($"Error on operation: Add_Rec",GetPorts());
                 data = false;
             }
             return data;

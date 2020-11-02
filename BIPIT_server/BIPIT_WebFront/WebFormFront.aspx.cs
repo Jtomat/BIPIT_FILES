@@ -12,10 +12,13 @@ namespace BIPIT_WebFront
         ServiceWTCP.ServiceClient serv = new ServiceWTCP.ServiceClient();
         protected void Page_Load(object sender, EventArgs e)
         {
-            UpdateTable();
-            InsertUsers();
-            InsertBooks();
-            ;
+            if (!Page.IsPostBack)
+            {
+                UpdateTable();
+                InsertUsers();
+                InsertBooks();
+            }
+            
         }
         private class CombobxRec
         {
