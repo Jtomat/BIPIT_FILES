@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BIPIT_server.exe" version="1.0.0.0" publicKeyToken="a6da43049c6226c6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BIPIT_server" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BIPIT_server.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BIPIT_server.exe" size="12776">
+      <assemblyIdentity name="BIPIT_server" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0f/lF9buzMuY/ObljVUaMPskaZJ8tBWG2ezyD1FSsuk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BIPIT_server.exe.config" size="3090">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+T2KXAcxlMw0pitRZqzcbqcuGolXbM52P59CrTMjQR0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-5U3O5DM\Михаил" issuerKeyHash="03b5522c7211f02410617f5d0e30132e9650df27" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iVWwMUqnhJHyn6q3I5UAZEdF8YVfuOz55wqZYuLluuo=</DigestValue></Reference></SignedInfo><SignatureValue>a+VAGqRhPTS+KQRn8DugZTKigWORavQvEsK5iW9JJmR6HV6w+fDmCScRmIpo+Q65A8dU+1S+aPeas0+y/dTOLSo6zuFs6fxtpiDlfV4LTwrSG4u/j9kVGTJWodCptKF9Y7gZ5edesS8nHaOw2XN8tVU0GuMXll/eDldW+50E2iA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5xEJ6ttwBp1IbVnYWyQwdYN4nA9h8Gdvx9fp9ZyLy2NKIxoaAaBxS6QthJnsZ0nxkSJyDKbOGSgXyqNh0BkLsKOqgB5GfNrKmrbp701U1FQWswaN+tYsnxZS/ArT2GVqOec5w+B6jF3xQl6ElqFMvs+3mAULOLOjjc1urS2bPwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="eabae5e262990ae7f9ecb85f85f1454764009523b7aa9ff29184a74a31b05589" Description="" Url=""><as:assemblyIdentity name="BIPIT_server.exe" version="1.0.0.0" publicKeyToken="a6da43049c6226c6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5U3O5DM\Михаил</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uOe8gmytM2nrpifGjfHm4BBN9PgqUEA3KOuA/+jxCX8=</DigestValue></Reference></SignedInfo><SignatureValue>uSXrUD95q/q7axYlODtlziDg+wjqV6EGj8DUlGTxx5ca4PepNad9n1rBs3nYvlSB54XYE/mpCTb+T8dZ+JN5e+Xa85llEYM6Vj2Ob0uvaxH34lGGo7f/JgOeHErrNiMyA22evEJSAnBf4vS03oiCKCnlGHlxQgEQG+v32IrEFF8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5xEJ6ttwBp1IbVnYWyQwdYN4nA9h8Gdvx9fp9ZyLy2NKIxoaAaBxS6QthJnsZ0nxkSJyDKbOGSgXyqNh0BkLsKOqgB5GfNrKmrbp701U1FQWswaN+tYsnxZS/ArT2GVqOec5w+B6jF3xQl6ElqFMvs+3mAULOLOjjc1urS2bPwE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQZjJwl9f+SaVMtpv0wE2UvTANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADUAVQAzAE8ANQBEAE0AXAQcBDgERQQwBDgEOzAeFw0yMDEwMjYxMjU5NTFaFw0yMTEwMjYxODU5NTFaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ANQBVADMATwA1AEQATQBcBBwEOARFBDAEOAQ7MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnEQnq23AGnUhtWdhbJDB1g3icD2HwZ2/H1+n1nIvLY0ojGhoBoHFLpC2EmexnSfGRInIMps4ZKBfKo2HQGQuwo6qAHkZ82sqatunvTVTUVBazBo361iyfFlL8CtPYZWo55znD4HqMXfFCXoSWoUy+z7eYBQs4s6ONzW6tLZs/AQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAK3yuJaeZml371SQg44c65nrPNm0zfdUGQXqGj+FHpySTfZNWDiYZ/0RkITIzl4ymF0j/MDJJ7VXbIdHBssOD7iCGgYnBBKnOzIPk7K/gPrpnTkPDTQL5KgQFNgy9wC++xnRQ7MS5DRnWqTnGeLCRoCwYOX08Ip8Y+TEURGLbtzN</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

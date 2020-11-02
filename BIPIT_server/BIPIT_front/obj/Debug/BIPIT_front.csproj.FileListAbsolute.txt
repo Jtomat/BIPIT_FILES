@@ -1,0 +1,10 @@
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_front\bin\Debug\BIPIT_front.exe.config
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_front\bin\Debug\BIPIT_front.exe
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_front\bin\Debug\BIPIT_front.pdb
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_front\obj\Debug\BIPIT_front.csprojAssemblyReference.cache
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_front\obj\Debug\BIPIT_front.Form1.resources
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_front\obj\Debug\BIPIT_front.Properties.Resources.resources
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_front\obj\Debug\BIPIT_front.csproj.GenerateResource.cache
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_front\obj\Debug\BIPIT_front.csproj.CoreCompileInputs.cache
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_front\obj\Debug\BIPIT_front.exe
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_front\obj\Debug\BIPIT_front.pdb

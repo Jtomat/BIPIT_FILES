@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0575e1ca-47b5-4a34-a085-04c4c6b3535a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:3081/Design_Time_Addresses/BIPIT_server/Service/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="994debe8-d7c2-4bd8-9b3b-24867c7f7338" SourceId="1" SourceUrl="net.tcp://localhost:3081/Design_Time_Addresses/BIPIT_server/Service/mex" />
+    <MetadataFile FileName="bindings.wsdl" MetadataType="Wsdl" ID="0adfd8f9-f07e-4bab-8fa1-c877876cb9d9" SourceId="1" SourceUrl="net.tcp://localhost:3081/Design_Time_Addresses/BIPIT_server/Service/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="a2c01af1-26ac-4a89-9692-6f7032628297" SourceId="1" SourceUrl="net.tcp://localhost:3081/Design_Time_Addresses/BIPIT_server/Service/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="561e98ad-85fa-4188-ba56-60ee3fb961d0" SourceId="1" SourceUrl="net.tcp://localhost:3081/Design_Time_Addresses/BIPIT_server/Service/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="e58ca366-0774-44b6-bbf9-d7b7f30ffad6" SourceId="1" SourceUrl="net.tcp://localhost:3081/Design_Time_Addresses/BIPIT_server/Service/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

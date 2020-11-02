@@ -1,0 +1,11 @@
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.exe.config
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.exe
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.pdb
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.csprojAssemblyReference.cache
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.csproj.CoreCompileInputs.cache
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.exe
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.pdb
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.exe.manifest
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\bin\Debug\BIPIT_server.application
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.exe.manifest
+D:\Sourse\VS\repos\BIPIT_server\BIPIT_server\obj\Debug\BIPIT_server.application
